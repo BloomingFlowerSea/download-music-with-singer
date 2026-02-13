@@ -1,5 +1,15 @@
 # Music-dl: Listen to what you want
 
+## 📝 我的工作
+
+本项目新增了自动化批量下载功能：
+
+- **脚本**: `scripts\download_artists.ps1` - PowerShell 自动化下载脚本
+- **配置**: `singer.txt` - 存放需要下载的歌手名单
+- **输出**: `temp\` - 下载的歌曲自动保存到此目录
+
+使用方法：在 `singer.txt` 中添加歌手名字（每行一个），然后运行脚本即可批量下载所有歌手的歌曲。
+
 <p align="center">
   <a href="https://github.com/0xHJK/music-dl">
     <img src="https://github.com/0xHJK/music-dl/raw/master/static/logo.png" height="400" alt="music-dl">
